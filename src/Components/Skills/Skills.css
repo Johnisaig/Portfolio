@@ -1,0 +1,94 @@
+.Skills {
+    padding: 50px 5% 50px 5%; /* Top, Right, Bottom, Left  */
+    height: 550px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.Title h1 {
+    color: steelblue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.ProgrammingLanguage h1 {
+   font-weight: bold;
+   color: steelblue;
+
+}
+
+.ProgrammingLanguage p {
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+.DataBase h1 {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.DataBase p {
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+.Branding h1 {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.Branding p {
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+.ProgrammingLanguage  {
+   width: 32%;
+   float: left;
+ }
+
+ .DataBase {
+     float: left;
+     width: 32%;
+     margin-left: 2%;
+     margin-right: 2%;
+ }
+ 
+ .Branding {
+     float: right;
+     width: 32%;
+ }
+
+
+@media only screen and (max-width: 552px){
+    .Skills {
+        height: 910px;
+    }
+
+    .ProgrammingLanguage  {
+        width: 100%;
+        float: left;
+        margin-bottom: 25px;
+    }
+     
+    .DataBase {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 25px;
+    }
+      
+    .Branding {
+        float: right;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .Skills {
+        height: 980px;
+    }
+}
+ 
