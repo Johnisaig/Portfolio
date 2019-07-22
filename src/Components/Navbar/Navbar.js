@@ -12,6 +12,25 @@ class Navbar extends Component {
         }
     }
 
+    handleScrollHome = e => {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        });
+      };
+
+      handleScrollForHome = e => {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        });
+        this.setState({ isOpen: !this.state.isOpen})
+      };
+
     handleScroll = e => {
         e.preventDefault();
         window.scrollTo({
@@ -121,7 +140,7 @@ class Navbar extends Component {
                                     <div className="BurgerMenu">
                                         <div className="HeaderList">
                                             <ul>
-                                                <li><a href="/" style={{ color: 'steelblue', textDecoration: 'none' }}>Home</a></li>
+                                                <li><a href="/" onClick={this.handleScrollForHome} style={{ color: 'steelblue', textDecoration: 'none' }}>Home</a></li>
                                                 <br/>
                                                 <li><a href="/about" onClick={this.handleClickForAbout} style={{ color: 'gray', textDecoration: 'none' }}>About</a></li>
                                                 <br/>
@@ -143,7 +162,7 @@ class Navbar extends Component {
                 </div>
               <div className="Header-list">
                 <ul>
-                    <li><a href="/" style={{ color: 'steelblue' }}>Home</a></li>
+                    <li><a href="/" onClick={this.handleScrollHome} style={{ color: 'steelblue' }}>Home</a></li>
                     <li><a href="/about" onClick={this.handleClickAbout}>About</a></li>
                     <li><a href="/experience" onClick={this.handleClickExp}>Experience</a></li>
                     <li><a href="/skills" onClick={this.handleClickSkills}>Skills</a></li>

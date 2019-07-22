@@ -15,7 +15,6 @@ body {
 .Logo{ 
     margin-left: 100px;
     float: left;
-    z-index: -1;
     top: 0;
 }
 
@@ -169,7 +168,13 @@ body {
         top: 0;
         left: 50%;
         right: -10%;
-        transform: translate(-130%, 0%);
+        transform: translate(-150%, 0%);
+    }
+
+    .HamMenu {
+      position: fixed;
+      display: inline;
+      margin-left: 30px;
     }
 
     .Header-list {

@@ -3,6 +3,8 @@
     background: url(../../Images/React.jpg);
     background-size: cover;
     height: 200px;   
+    z-index: -1;
+    position: relative;
 }
 
 .HireContent h1 {
@@ -35,7 +37,8 @@
 
 .HireMe {
     float: left;
-   
+    
+
 }
 
 
@@ -94,6 +97,7 @@
 
     .HireMe {
         padding-left: 50px;
+     
        
     }
     
@@ -206,5 +210,6 @@
 
     .HireMe {
         padding-left: 20px;
+      
     }
 }

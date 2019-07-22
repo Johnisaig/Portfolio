@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, } from 'react-router-dom';
 import Navbar from '../Components/Navbar/Navbar';
 import Experience from '../Components/Experience/Experience';
 import Home from '../Components/Home/Home';
@@ -12,18 +12,13 @@ class Routes extends Component {
     render() {
         return (
             <BrowserRouter>
-          
                 <Navbar />
-                <Home />
+                <Home style={{ zIndex: -9999 }}/>
                 <About />
                 <Experience />
                 <Hire />
                 <Skills />
                 <Footer />
-                <Switch>
-                    <Route path="/" exact component={Navbar}/>
-                    <Route path="/experience" exact component={Experience}/>
-                </Switch>
             </BrowserRouter>
         );
     }

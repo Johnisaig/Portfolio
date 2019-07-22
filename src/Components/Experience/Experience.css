@@ -2,6 +2,7 @@
   padding: 50px 13vw 50px 13vw;
   height: 120vh;
   z-index: -1;
+  position: relative;
 }
 
 .Exp-Education h1 {

@@ -3,6 +3,8 @@
     height: 550px;
     width: 100%;
     background: rgb(255, 255, 255);
+    z-index: -1;
+    position: relative;
 }
 
 .Title h1 {
