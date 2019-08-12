@@ -1,12 +1,11 @@
 .Home {
-    z-index: -1;
     position: relative;
     height: 650px;
     padding-top: 70px;
     background: gray;
 }
 
-.ant-carousel .slick-slide {
+.ant-carousel {
     text-align: center;
     width: 100%;    
     overflow: hidden;
@@ -14,5 +13,5 @@
 
 .Images {
     width: 100%; 
-    height: 600px;
+    height: 580px;
 }

@@ -9,6 +9,7 @@ body {
     height: 70px;
     top: 0;
     position: fixed;
+    z-index: 10000;
     box-shadow: 0 .1rem  rgb(230, 228, 228)
 }
 

@@ -13,7 +13,7 @@ class Routes extends Component {
         return (
             <BrowserRouter>
                 <Navbar />
-                <Home style={{ zIndex: -9999 }}/>
+                <Home />
                 <About />
                 <Experience />
                 <Hire />

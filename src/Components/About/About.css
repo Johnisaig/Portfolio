@@ -23,7 +23,6 @@
       background: rgb(49, 49, 49);
       background: url(../../Images/x.png);
       background-size: cover;
-      z-index: -1;
       position: relative;
       width: 100%;
       height: 650px;
